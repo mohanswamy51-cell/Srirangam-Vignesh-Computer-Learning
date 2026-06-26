@@ -243,7 +243,27 @@ text-align:center;
 <h2>© 2026 Srirangam Vignesh Computer Learning</h2>
 
 </footer>
+<footer>
+    <h2>© 2026 Srirangam Vignesh Computer Learning</h2>
+</footer>
 
+<!-- LIVE USERS START -->
+<h3 style="text-align:center;color:green;">
+🟢 Live Users: <span id="liveUsers">0</span>
+</h3>
+
+<script>
+function updateUsers() {
+    const users = Math.floor(Math.random() * 50) + 1;
+    document.getElementById("liveUsers").textContent = users;
+}
+updateUsers();
+setInterval(updateUsers, 5000);
+</script>
+<!-- LIVE USERS END -->
+
+</body>
+</html>
 </body>
 </html>
 <!-- ================= COMPUTER BASICS LESSON ================= -->
